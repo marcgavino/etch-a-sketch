@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "control"
+        "container";
+    justify-content: center;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+
+.canvas {
+    display: grid;
+    grid-template-columns: repeat(16, 100%);
+    justify-content: center;
+    border: 20px solid red;
+    border-radius: 10px;
+}
+
+.square {
+    background-color: lightgray;
+    display: flex;
+    width: 10px;
+    height: 10px;
+}
